@@ -1,0 +1,14 @@
+Changes
+-------
+* **0.4** -- 2013-08-26
+
+  * restler now supports django and sqlalchemy models.
+
+
+* **0.3** -- 2012-09-09
+
+  * Python 2.7 or greater required
+  * restler now supports ndb models
+  * You must specify the appropriate class decorators for models e.g.
+    * @ae_db_serializer for appengine db.Model
+    * @ae_ndb_serializer for appengine ndb.Model 
